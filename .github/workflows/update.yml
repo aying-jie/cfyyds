@@ -10,6 +10,7 @@ on:
 permissions:
   contents: write
 
+
 concurrency:
   group: update-cf-ip
   cancel-in-progress: false
